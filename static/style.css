@@ -234,6 +234,6 @@ body {
   justify-content: center;
   color: rgb(15, 173, 9);
   text-transform: lowercase;
-  border-bottom: dotted 1.75px #8b8b8b;
-  border-top: dotted 1.75px #8b8b8b;
+  border-bottom: dotted 2px #8b8b8b;
+  border-top: dotted 2px #8b8b8b;
 }
