@@ -40,7 +40,7 @@ def home():
 
         # personal details coresponding to classes
         person_details = {
-            'abraham_dessie': {'name': 'Abraham Dessie', 'Department': 'CS', 'personality': 'hard worker'},
+            'abraham_dessie': {'name': 'Abraham Dessie', 'Department': 'CS', 'personality': 'hard-worker'},
             'amare_chanie': {'name': 'Amare Chanie', 'Department': 'CS', 'personality': 'humble'},
             'ashenafi_yirgalem': {'name': 'Ashenafi Yirgalem', 'Department': 'CS', 'personality': 'creative'},
             'habtamu_wale': {'name': 'Habtamu Wale', 'Department': 'CS', 'personality': 'leader'},
