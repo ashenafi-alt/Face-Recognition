@@ -13,7 +13,7 @@ def index():
     return render_template('index.html')
 
 # Load the trained face recognition model
-model = load_model('model/face_recognition_model-S01.keras')
+model = load_model('model/face_recognition_model-S01-45mb.h5')
     
 @app.route('/home', methods=['POST'])
 def home():
