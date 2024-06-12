@@ -18,7 +18,7 @@ model = load_model('model/face_recognition_model-S01-45mb.h5')
 @app.route('/home', methods=['POST'])
 def home():
         # read the image to be recognised
-        image_path = request.form.get('imagePath')
+        image_path = request.form.get(r'imagePath')
         # image = cv.imread(image_path)
         image = Image.open(image_path)
         imageDisplay = Image.open(image_path)
