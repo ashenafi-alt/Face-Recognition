@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../static/style.css" />
+    <title>face recognition app</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body class="home-flex-container">
+    <header class="home--header">
+      <div class="top-header">
+        <h1>RECOGNIZED IMAGE</h1>
+      </div>
+    </header>
+    <div class="home-content-wrapper">
+      <div class="home-bg">
+        <div class="home-content">
+          <img
+            src="data:image/jpeg;base64,{{ image }}"
+            style="max-width: 250px"
+          />
+          <div style="max-width: 250px" class="detail">
+            <div class="details detail--1">
+              <span class="detail-label">Name :&emsp;</span>
+              <span class="detail-value"> {{ name }}</span>
+            </div>
+            <div class="details detail--2">
+              <span class="detail-label">Confidance :&emsp;</span>
+              <span class="detail-value"> {{ confidance }}</span>
+            </div>
+            <div class="details detail--3">
+              <span class="detail-label">Department :&emsp;</span>
+              <span class="detail-value"> {{ Department }}</span>
+            </div>
+            <div class="details detail--4">
+              <span class="detail-label">Personality :&emsp;</span>
+              <span class="detail-value"> {{ personality }}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <button
+      class="button-recognize button-recognize--home"
+      onclick="window.location.href='/'"
+    >
+      GO BACK
+    </button>
+  </body>
+</html>
